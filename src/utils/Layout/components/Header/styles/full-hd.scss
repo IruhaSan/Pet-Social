@@ -1,0 +1,45 @@
+.root {
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 16px 0;
+}
+
+.wrapper {
+    background-color: skyblue;
+}
+
+.navigate {
+    display: flex;
+    width: 100%;
+    & > button {
+        border: none;
+        outline: none;
+        padding: 8px 24px;
+        font-weight: bold;
+        background-color: rgb(16, 189, 36);
+        color: white;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+}
+
+.auth {
+    display: flex;
+    width: 100%;
+    justify-content: flex-end;
+    & > button {
+        border: none;
+        outline: none;
+        padding: 8px 24px;
+        font-weight: bold;
+        background-color: rgb(16, 189, 36);
+        color: white;
+        border-radius: 5px;
+        cursor: pointer;
+        &:first-child {
+            margin-right: 10px;
+        }
+    }
+}

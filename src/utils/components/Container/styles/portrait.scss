@@ -1,0 +1,135 @@
+.root {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    flex-direction: column;
+    position: relative;
+    background-color: #F2EDF8;
+}
+
+.medecine_intro{
+    margin-top: 50px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    background-color: #fff;
+    justify-content: space-between;
+    border-radius: 30px;
+    &_description {
+        flex-direction: column;
+        padding-top: 30px;
+        padding-left: 47px;
+        padding-bottom: 0px;
+        & > h1 {
+            font-family: 'Manrope';
+            font-weight: 800;
+            font-size: 32px;
+            line-height: 1.6; 
+            color: #001A49;
+        }
+        & > p {
+            font-family: 'Manrope';
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 1.375;
+            color: #001A49;
+        }
+        & > button {
+            padding: 10px 16px;
+            background: #7A2C86;
+            font-family: 'Manrope';
+            font-size: 13px;
+            color: #fff;
+            line-height: 1.5;
+            border-radius: 7px;
+            margin-top: 19px;
+            border-width: 0px;
+        }
+    }
+    & > img {
+        width: 165px;
+        height: 220px;
+        border-radius: 0px 22px 22px 0px;
+    }
+}
+
+.updates {
+    display: flex;
+    flex-direction: row;
+    margin-top: 32px;
+    justify-content: space-between;
+    margin-bottom: 62px;
+    &_course {
+        display: flex;
+        flex-direction: column;
+        background: #fff;
+        border-radius: 30px;
+    }
+    &_quest {
+        background: #fff;
+    }
+}
+
+.courses-library {
+    display: flex;
+    flex-direction: column;
+    padding-top: 30px;
+    padding-bottom: 80px;
+    &-wrapper {
+        background-color: #EBFAFB;
+    }
+    & > h1 {
+        font-family: 'Montserrat';
+        font-weight: 800;
+        font-size: 30px;
+        text-align: center;
+        line-height: 1.5;
+    }
+}
+
+.interactive-quests {
+    display: flex;
+    padding-top: 40px;
+    & > h1 {
+        font-family: 'Montserrat';
+        font-weight: 800;
+        font-size: 30px;
+        line-height: 1.21;
+        color: #001A49;
+        align-self: center;
+    }
+    & > span {
+        padding-top: 10px;
+        padding-bottom: 30px;
+        align-self: center;
+        text-align: center;
+        font-family: 'Inter';
+        font-weight: 400;
+        font-size: 13px;
+        line-height: 1.67;
+        color: #4F596A;
+    }
+}
+
+.documents {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    & > h1 {
+        font-family: 'Montserrat';
+        font-weight: 800;
+        font-size: 30px;
+        line-height: 1.22;
+        color: #001A49;
+    }
+    & > span {
+        font-family: 'Inter';
+        font-weight: 400;
+        font-size: 13px;
+        line-height: 1.67;
+        color: #4F596A;
+        margin-top: 10px;
+    }
+}
